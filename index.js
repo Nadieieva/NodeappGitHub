@@ -7,10 +7,10 @@ import mysql from "mysql2";
 
 // connecting Database
 const connection = mysql.createPool({
-  host: "localhost",
-  user: "root",
-  password: "Password123#@!",
-  database: "basic_crud",
+  host: "db-nodeapp.c1asoy8wonmz.us-east-1.rds.amazonaws.com",
+  user: "admin",
+  password: "Password123!",
+  database: "nodeapp",
 });
 
 // post request
